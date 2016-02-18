@@ -1,0 +1,19 @@
+{
+    "name": "par/lara",
+    "description": "new package",
+    "authors": [
+        {
+            "name": "birmaram",
+            "email": "birmaram786@gmail.com"
+        }
+    ],
+    "autoload":{
+      "psr-4": {
+        "par\\lara\\": "src/"
+      }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "Illuminate/Support":"5.1"
+    }
+}
